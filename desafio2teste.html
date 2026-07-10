@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro para Oficina de Sistemas Operacionais</title>
+</head>
+
+<body>
+
+    <h1>Cadastro para Oficina de Sistemas Operacionais</h1>
+
+    <form>
+
+        <label>Nome completo:</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Senha de acesso:</label><br>
+        <input type="password" name="senha"><br><br>
+
+        <label>Sistema Operacional:</label><br>
+        <select>
+            <option>Selecione um sistema operacional</option>
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>macOS</option>
+            <option>Android</option>
+            <option>iOS</option>
+        </select>
+
+        <br><br>
+
+        <label>Turno:</label><br><br>
+
+        <input type="radio" name="turno" value="Manhã"> Manhã
+        <input type="radio" name="turno" value="Tarde"> Tarde
+        <input type="radio" name="turno" value="Noite"> Noite
+
+        <br><br>
+
+        <label>Áreas de interesse:</label><br><br>
+
+        <input type="checkbox" name="interesse"> Instalação de Sistemas
+        <input type="checkbox" name="interesse"> Segurança Digital
+        <input type="checkbox" name="interesse"> Administração de Redes
+        <input type="checkbox" name="interesse"> Manutenção de Computadores
+
+        <br><br>
+
+        <label>Observações:</label><br>
+        <textarea rows="5" cols="50"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar inscrição">
+
+    </form>
+
+    <hr>
+
+    <h2>Participantes já inscritos</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Nome</th>
+            <th>Sistema Operacional</th>
+            <th>Turno</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Ana Clara</td>
+            <td>Windows</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+        </tr>
+
+        <tr>
+            <td>Lucas Henrique</td>
+            <td>Linux</td>
+            <td>Tarde</td>
+            <td>Pendente</td>
+        </tr>
+
+        <tr>
+            <td>Mariana Souza</td>
+            <td>macOS</td>
+            <td>Noite</td>
+            <td>Confirmado</td>
+        </tr>
+
+        <tr>
+            <td>Pedro Lima</td>
+            <td>Android</td>
+            <td>Tarde</td>
+            <td>Em análise</td>
+        </tr>
+
+        <tr>
+            <td>Juliana Alves</td>
+            <td>iOS</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>Sobre os Sistemas Operacionais</h2>
+
+    <p>
+        Um <strong>sistema operacional</strong> é o software responsável por controlar
+        o funcionamento de um computador, celular ou tablet. Ele faz a comunicação
+        entre o usuário, os programas e o hardware do dispositivo.
+    </p>
+
+    <p>
+        Entre suas principais funções estão gerenciar a memória, controlar os
+        dispositivos de entrada e saída, organizar arquivos, executar programas
+        e garantir a segurança das informações.
+    </p>
+
+    <p>
+        Os sistemas operacionais mais conhecidos são <strong>Windows</strong>,
+        <strong>Linux</strong>, <strong>macOS</strong>, <strong>Android</strong> e
+        <strong>iOS</strong>. Cada um possui características próprias e é utilizado
+        em diferentes tipos de dispositivos.
+    </p>
+
+</body>
+</html>
