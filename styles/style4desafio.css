@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Menu */
+nav {
+    background-color: #004d66;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    margin: 0 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #004d66;
+}
+
+/* Seções (IDs) */
+#inicio,
+#programacao,
+#contato {
+    background-color: white;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 8px;
+}
+
+/* Classe titulo-secao */
+.titulo-secao {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #006699;
+}
+
+/* Classe card-programa */
+.card-programa {
+    border: 2px solid #006699;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.card-programa h3 {
+    margin-bottom: 10px;
+}
+
+.card-programa p {
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
